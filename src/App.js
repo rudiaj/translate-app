@@ -6,7 +6,6 @@ import { LanguageContext } from "./utils";
 import {languageKeys} from "./constants";
 import dummyData from "./constants/dummyData.json";
 
-
 const App = () => {
   const [sourceLang, setSourceLang] = useState(languageKeys.EN);
   const [targetLang, setTargetLang] = useState(languageKeys.DE);

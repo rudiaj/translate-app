@@ -15,11 +15,11 @@ const languageNames = {
 const Container = styled.div`
   background: white;
   border-radius: 2px;
-  width: 100%;
-  min-width: 800px;
+  max-width: 800px;
+  flex: 1;
+  margin: 15px;
   display: flex;
   flex-direction: column;
-  min-height: 221px;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16);
   flex-flow: column;
 `;
@@ -55,6 +55,13 @@ const TargetText = styled.p`
   }
 `;
 
+const Section = styled.section`
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 const TranslateBox = () => {
   const { sourceLang, targetLang, targetText, setSourceText } = useContext(
     LanguageContext
@@ -65,20 +72,22 @@ const TranslateBox = () => {
   }, 250);
 
   return (
-    <Container>
-      <LanguageBar>
-        <Flag countryCode={sourceLang} />
-        <SourceText
-          placeholder={`From ${languageNames[sourceLang]}`}
-          onChange={(e) => onChange(e.target.value)}
-        />
-      </LanguageBar>
-      <Divider />
-      <LanguageBar>
-        <Flag countryCode={targetLang} />
-        <TargetText role="presentation">{targetText}</TargetText>
-      </LanguageBar>
-    </Container>
+    <Section>
+      <Container>
+        <LanguageBar>
+          <Flag countryCode={sourceLang} />
+          <SourceText
+            placeholder={`From ${languageNames[sourceLang]}`}
+            onChange={(e) => onChange(e.target.value)}
+          />
+        </LanguageBar>
+        <Divider />
+        <LanguageBar>
+          <Flag countryCode={targetLang} />
+          <TargetText role="presentation">{targetText}</TargetText>
+        </LanguageBar>
+      </Container>
+    </Section>
   );
 };
 
