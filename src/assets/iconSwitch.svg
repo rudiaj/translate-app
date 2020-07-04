@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iconSwitch</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="5%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="20%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="80%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.02" offset="95.0255322%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.04" offset="100%"></stop>
+        </linearGradient>
+        <path d="M92,260.995116 C92,259.893244 92.9036064,259 94.0030738,259 L889.996926,259 C891.103193,259 892,259.890433 892,260.995116 L892,478.004884 C892,479.106756 891.096394,480 889.996926,480 L94.0030738,480 C92.8968067,480 92,479.109567 92,478.004884 L92,260.995116 Z" id="path-3"></path>
+        <filter x="-0.4%" y="-1.2%" width="100.8%" height="102.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Empty" transform="translate(-474.000000, -351.000000)">
+            <rect fill="#F2F5F7" x="0" y="0" width="1024" height="768"></rect>
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <g id="Widget">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                <path stroke="url(#linearGradient-1)" stroke-width="0.5" d="M889.996926,259.25 C890.481458,259.25 890.920177,259.444977 891.237581,259.761119 C891.55421,260.076491 891.75,260.512419 891.75,260.995116 L891.75,260.995116 L891.75,478.004884 C891.75,478.485901 891.552821,478.921301 891.236018,479.236845 C890.917849,479.55375 890.478931,479.75 889.996926,479.75 L889.996926,479.75 L94.0030738,479.75 C93.5185419,479.75 93.0798228,479.555023 92.7624189,479.238881 C92.4457897,478.923509 92.25,478.487581 92.25,478.004884 L92.25,478.004884 L92.25,260.995116 C92.25,260.514099 92.4471793,260.078699 92.763982,259.763155 C93.082151,259.44625 93.5210689,259.25 94.0030738,259.25 L94.0030738,259.25 Z" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <path stroke="url(#linearGradient-2)" stroke-width="0.5" d="M889.996926,259.25 C890.481458,259.25 890.920177,259.444977 891.237581,259.761119 C891.55421,260.076491 891.75,260.512419 891.75,260.995116 L891.75,260.995116 L891.75,478.004884 C891.75,478.485901 891.552821,478.921301 891.236018,479.236845 C890.917849,479.55375 890.478931,479.75 889.996926,479.75 L889.996926,479.75 L94.0030738,479.75 C93.5185419,479.75 93.0798228,479.555023 92.7624189,479.238881 C92.4457897,478.923509 92.25,478.487581 92.25,478.004884 L92.25,478.004884 L92.25,260.995116 C92.25,260.514099 92.4471793,260.078699 92.763982,259.763155 C93.082151,259.44625 93.5210689,259.25 94.0030738,259.25 L94.0030738,259.25 Z" stroke-linejoin="square"></path>
+            </g>
+            <rect id="line" fill-opacity="0.08" fill="#000000" mask="url(#mask-4)" x="163" y="369" width="800" height="1"></rect>
+            <g id="Group" mask="url(#mask-4)">
+                <g transform="translate(474.000000, 351.000000)">
+                    <rect id="Rectangle-527" opacity="0.2" x="7" y="7" width="24" height="24"></rect>
+                    <circle id="Background" fill="#FFFFFF" cx="18.5" cy="18.5" r="18.5"></circle>
+                    <path d="M29,14.5 L29,18.9996149 C29,21.7612513 26.7558048,24 24,24 L24,24 C21.2385763,24 19,21.7558048 19,19 L19,19 C19,16.2385763 16.7606624,14 13.9996149,14 L14.5003851,14 C11.7387487,14 9.5,16.2393376 9.5,19.0003851 L9.5,23.5" id="Rectangle-254" stroke="#1A98FF" stroke-linecap="round" stroke-linejoin="round" transform="translate(19.250000, 19.000000) scale(1, -1) translate(-19.250000, -19.000000) "></path>
+                    <polyline id="Path-276" stroke="#1A98FF" stroke-linecap="round" stroke-linejoin="round" transform="translate(29.000000, 22.375000) scale(1, -1) translate(-29.000000, -22.375000) " points="25.75 24 29 20.75 32.25 24"></polyline>
+                    <polyline id="Path-276" stroke="#1A98FF" stroke-linecap="round" stroke-linejoin="round" transform="translate(9.500000, 14.875000) scale(1, -1) translate(-9.500000, -14.875000) " points="6.25 13.5 9.5 16.25 12.75 13.5"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
