@@ -1,4 +1,4 @@
-# nanos-frontend
+# simple translator app with dummy data
 
 In the project directory, you can run:
 
@@ -11,4 +11,4 @@ Install project dependencies.
 Runs the app in the development mode.
 
 Live preview:
-https://nanos-frontend.firebaseapp.com/
+https://translator-714d7.firebaseapp.com/
